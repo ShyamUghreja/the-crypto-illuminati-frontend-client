@@ -1,0 +1,82 @@
+.all-hero-sec
+    overflow: hidden
+    padding: 80px 0
+    background: #000000
+    .hero-text
+        h2
+            span
+                font-style: normal
+        h1
+            span
+                font-style: normal
+        .subscribe
+            .form-control
+                padding: 18px 22px
+                font-weight: 400
+                font-size: 16px
+                line-height: 112%
+                color: #fff
+                background: #FFFFFF12
+                border: 1px solid #FFFFFF3D
+                border-radius: 0
+            .news-sign-button
+                position: absolute
+                right: 8px
+                top: 50%
+                transform: translateY(-50%)
+                background: #C43D3D
+                border-radius: 0
+                font-weight: 600
+                font-size: 16px
+                line-height: 100%
+                border: none
+                padding: 14px 25px
+    .all-hero-img
+        position: relative
+        height: 300px
+        img
+            position: absolute
+            top: 0
+            right: 0
+@media screen and (max-width: 1600px)
+    .all-hero-sec
+        padding: 60px 0
+
+@media screen and (max-width: 1400px)
+    .all-hero-sec
+        padding: 50px 0
+
+@media screen and (max-width: 1200px)
+    .all-hero-sec
+        padding: 40px 0
+
+@media screen and (max-width: 992px)
+    .all-hero-sec
+        .hero-text
+            .subscribe
+                .form-control
+                    padding: 14px 22px
+                    font-size: 14px
+@media screen and (max-width: 767px)
+    .all-hero-sec
+        padding: 20px 0 30px 0
+        .all-hero-img
+            height: 250px
+            overflow: hidden
+            margin-bottom: 20px
+        .hero-text
+            p
+                br
+                    display: none
+        .row
+            flex-direction: column-reverse
+
+        .hero-text
+            h2
+                br
+                    display: none
+            .subscribe
+                .form-control
+                    padding: 12px 14px
+                    font-weight: 400
+                    font-size: 14px
